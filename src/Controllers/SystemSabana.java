@@ -167,7 +167,7 @@ public class SystemSabana implements ILogin {
     }
 
     private void addComponentToGroup(User user, String groupName) {
-        //This search only consider a composite tree with depth 2
+        //This search only considers a composite tree with depth 2
         if (!users.containsKey(user.getEmail())) return;
 
         if (groups.containsKey(groupName)) {
